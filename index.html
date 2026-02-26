@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYD Cars - Electric Vehicle Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">BYD</div>
+                <span>Build Your Dreams</span>
+            </div>
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#models">Models</a>
+                <a href="#technology">Technology</a>
+                <a href="#sustainability">Sustainability</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>The Future of <span class="highlight">Electric Mobility</span></h1>
+            <p>Leading the world in electric vehicle innovation with zero emissions, superior performance, and cutting-edge technology.</p>
+            <div class="hero-buttons">
+                <a href="#models" class="btn btn-primary">Explore Models</a>
+                <a href="#technology" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="car-showcase">
+                <div class="car-placeholder">
+                    <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50,150 Q100,100 150,120 T250,120 T350,150 L350,160 L50,160 Z" fill="#1a73e8" opacity="0.8"/>
+                        <circle cx="100" cy="160" r="20" fill="#333"/>
+                        <circle cx="300" cy="160" r="20" fill="#333"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Models Section -->
+    <section id="models" class="models">
+        <div class="container">
+            <h2 class="section-title">Our <span class="highlight">Vehicle Lineup</span></h2>
+            <p class="section-subtitle">Discover the perfect electric vehicle for your lifestyle</p>
+            
+            <div class="models-grid">
+                <!-- Han EV -->
+                <div class="model-card">
+                    <div class="model-image han"></div>
+                    <div class="model-info">
+                        <span class="model-badge">Sedan</span>
+                        <h3>BYD Han</h3>
+                        <p>Premium electric sedan with 550km range and cutting-edge Blade Battery technology</p>
+                        <ul class="specs">
+                            <li>Range: 550 km</li>
+                            <li>0-100 km/h: 3.9s</li>
+                            <li>Power: 380 kW</li>
+                            <li>Price: $45,000</li>
+                        </ul>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Tang EV -->
+                <div class="model-card">
+                    <div class="model-image tang"></div>
+                    <div class="model-info">
+                        <span class="model-badge">SUV</span>
+                        <h3>BYD Tang</h3>
+                        <p>7-seater electric SUV combining luxury, space, and family-friendly features</p>
+                        <ul class="specs">
+                            <li>Range: 520 km</li>
+                            <li>0-100 km/h: 4.6s</li>
+                            <li>Power: 380 kW</li>
+                            <li>Price: $48,000</li>
+                        </ul>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Seal -->
+                <div class="model-card">
+                    <div class="model-image seal"></div>
+                    <div class="model-info">
+                        <span class="model-badge">Sport Sedan</span>
+                        <h3>BYD Seal</h3>
+                        <p>Sleek performance sedan with advanced safety systems and rapid charging</p>
+                        <ul class="specs">
+                            <li>Range: 570 km</li>
+                            <li>0-100 km/h: 3.8s</li>
+                            <li>Power: 390 kW</li>
+                            <li>Price: $42,000</li>
+                        </ul>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Dolphin -->
+                <div class="model-card">
+                    <div class="model-image dolphin"></div>
+                    <div class="model-info">
+                        <span class="model-badge">Compact</span>
+                        <h3>BYD Dolphin</h3>
+                        <p>Compact electric hatchback perfect for city commuting with 405km range</p>
+                        <ul class="specs">
+                            <li>Range: 405 km</li>
+                            <li>0-100 km/h: 7.0s</li>
+                            <li>Power: 150 kW</li>
+                            <li>Price: $22,000</li>
+                        </ul>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Atto 3 -->
+                <div class="model-card">
+                    <div class="model-image atto3"></div>
+                    <div class="model-info">
+                        <span class="model-badge">Compact SUV</span>
+                        <h3>BYD Atto 3</h3>
+                        <p>Compact electric SUV with sporty design and advanced interior technology</p>
+                        <ul class="specs">
+                            <li>Range: 420 km</li>
+                            <li>0-100 km/h: 7.3s</li>
+                            <li>Power: 150 kW</li>
+                            <li>Price: $28,000</li>
+                        </ul>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+
+                <!-- Song Plus -->
+                <div class="model-card">
+                    <div class="model-image song"></div>
+                    <div class="model-info">
+                        <span class="model-badge">Mid-size SUV</span>
+                        <h3>BYD Song Plus</h3>
+                        <p>Versatile electric SUV with spacious interior and competitive range</p>
+                        <ul class="specs">
+                            <li>Range: 505 km</li>
+                            <li>0-100 km/h: 7.2s</li>
+                            <li>Power: 200 kW</li>
+                            <li>Price: $35,000</li>
+                        </ul>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <h2 class="section-title">Advanced <span class="highlight">Technology</span></h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">⚡</div>
+                    <h3>Blade Battery</h3>
+                    <p>Revolutionary lithium iron phosphate battery with superior safety, longer lifespan, and zero fire risk. Passed rigorous nail penetration tests.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🚗</div>
+                    <h3>e-Platform 3.0</h3>
+                    <p>Integrated electric vehicle platform offering improved efficiency, faster charging, and more interior space through compact component design.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🌍</div>
+                    <h3>Zero Emissions</h3>
+                    <p>True zero-emission electric vehicles produce no tailpipe pollutants, contributing to cleaner air and a sustainable future.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🔋</div>
+                    <h3>Fast Charging</h3>
+                    <p>Supports up to 150kW DC fast charging, allowing 80% charge in just 30 minutes for most models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section id="sustainability" class="sustainability">
+        <div class="container">
+            <h2 class="section-title">Commitment to <span class="highlight">Sustainability</span></h2>
+            <div class="sustainability-content">
+                <div class="sustainability-text">
+                    <p>BYD is committed to achieving carbon neutrality and creating a sustainable future through electric mobility. Our vertical integration strategy controls the entire supply chain from battery production to vehicle assembly, ensuring quality and reducing environmental impact.</p>
+                    <ul class="sustainability-list">
+                        <li>Carbon-neutral production by 2040</li>
+                        <li>Battery recycling and second-life applications</li>
+                        <li>Renewable energy integration in manufacturing</li>
+                        <li>Ethical sourcing of raw materials</li>
+                        <li>Community sustainability programs</li>
+                    </ul>
+                </div>
+                <div class="sustainability-stats">
+                    <div class="stat">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Million EVs produced</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Countries worldwide</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1995</div>
+                        <div class="stat-label">Year founded</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">#1</div>
+                        <div class="stat-label">EV manufacturer globally</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in <span class="highlight">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>BYD Global Headquarters</h3>
+                    <p>BYD Company Limited<br>
+                    No. 1, BYD Road, Pingshan District<br>
+                    Shenzhen, Guangdong, China<br>
+                    Postal Code: 518118</p>
+                    <p><strong>Customer Service:</strong> 400-828-8898</p>
+                    <p><strong>Email:</strong> global@byd.com</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">TW</a>
+                        <a href="#" class="social-link">IG</a>
+                        <a href="#" class="social-link">YT</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="">Select Interest</option>
+                                <option value="purchase">Purchase Inquiry</option>
+                                <option value="test-drive">Test Drive</option>
+                                <option value="service">Service & Parts</option>
+                                <option value="business">Business Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <div class="logo-icon">BYD</div>
+                        <span>Build Your Dreams</span>
+                    </div>
+                    <p>Leading the world in electric vehicle innovation and sustainable energy solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Vehicles</h4>
+                    <ul>
+                        <li><a href="#">Han EV</a></li>
+                        <li><a href="#">Tang EV</a></li>
+                        <li><a href="#">Seal</a></li>
+                        <li><a href="#">Atto 3</a></li>
+                        <li><a href="#">Dolphin</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Find a Dealer</a></li>
+                        <li><a href="#">Schedule Service</a></li>
+                        <li><a href="#">Owner's Portal</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BYD Company Limited. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
